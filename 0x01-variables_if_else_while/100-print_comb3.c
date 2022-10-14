@@ -24,7 +24,7 @@ int main(void)
 				putchar(i);
 				putchar(j);
 			}
-			if ( i == j )
+			if (i == j)
 				break;
 			else
 			{
@@ -33,7 +33,7 @@ int main(void)
 			}
 		}
 		k++;
-        }
+	}
 	putchar('\n');
 	return (0);
 
