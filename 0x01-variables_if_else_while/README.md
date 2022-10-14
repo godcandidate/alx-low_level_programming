@@ -3,3 +3,4 @@
 2-print_alphabet.c prints all the alphabets in lowercase
 3-print_alphabets.c prints all alphabets in lower case then upper case
 4-print_alphabt.c prints all lower case letters except e and q
+5-print_numbers.c prints numbers from 0 to 10
