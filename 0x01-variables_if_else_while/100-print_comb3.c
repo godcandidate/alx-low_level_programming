@@ -13,9 +13,9 @@
 int main(void)
 
 {
-	int x, y, = '0', z;
+	int x, y = '0', z;
 
-	for (n = '0'; n <= '9'; n++)
+	for (x = '0'; x <= '9'; x++)
 	{
 		for (z = y; z <= '9' z++)
 		{
