@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphabets in lowercase
+ * main - Prints the lowercase alphabets in reverse order
  *
  * Return: Always 0 (Success)
  *
