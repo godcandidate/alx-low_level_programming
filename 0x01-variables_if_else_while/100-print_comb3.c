@@ -17,12 +17,12 @@ int main(void)
 
 	for (i = '0'; i <= '9'; i++)
 	{
-		for (j = k; j <= '9' j++)
+		for (j = k; j <= '9'; j++)
 		{
-			if (i != z)
+			if (i != j)
 			{
-				putchar(n);
-				pytchar(z);
+				putchar(i);
+				pytchar(j);
 			}
 			if ( i == j )
 				break;
@@ -32,7 +32,7 @@ int main(void)
 				putchar(' ')
 			}
 		}
-		y++
+		k++
         }
 	putchar('\n');
 	return (0);
