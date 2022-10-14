@@ -19,7 +19,7 @@ int main(void)
 		putchar(n);
 	
 	for (n = 'A'; n <= 'Z'; n++)
-		putchar(n)
+		putchar(n);
 	putchar('\n');
 	return (0);
 
