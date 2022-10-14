@@ -13,17 +13,18 @@
 int main(void)
 
 {
-	int x, y = '0', z;
+	int i, k = '0', j;
 
-	for (x = '0'; x <= '9'; x++)
+	for (i = '0'; i <= '9'; i++)
 	{
-		for (z = y; z <= '9' z++)
+		for (j = k; j <= '9' j++)
 		{
-			if ( n != z)
+			if (i != z)
 			{
 				putchar(n);
 				pytchar(z);
-			if ( i == z )
+			}
+			if ( i == j )
 				break;
 			else
 			{
