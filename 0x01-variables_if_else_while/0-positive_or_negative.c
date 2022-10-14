@@ -2,13 +2,14 @@
 #include <time.h>
 /* more headers goes there */
 
-/**                                                                                        
- *  * main - Prints whether a number is negative or positive                                                                
- *   *                                                                                         
- *    * Return: Always 0 (Success)                                                              
- *     *                                                                                         
- *      */ 
+
 /* betty style doc for function main goes there */
+/**                                                                                        
+ *  main - Prints whether a number is negative or positive                                                                
+ *                                                                                          
+ *  Return: Always 0 (Success)                                                              
+ *                                                                                          
+ */ 
 int main(void)
 {
 		int n;
