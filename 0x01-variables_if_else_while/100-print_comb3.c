@@ -27,7 +27,9 @@ int main(void)
 			if (i == j)
 				continue;
 			if (i == '8' && j == '9')
+			{
 				break;
+			}
 			else
 			{
 				putchar(',');
