@@ -22,17 +22,17 @@ int main(void)
 			if (i != j)
 			{
 				putchar(i);
-				pytchar(j);
+				putchar(j);
 			}
 			if ( i == j )
 				break;
 			else
 			{
-				putchar(',')
-				putchar(' ')
+				putchar(',');
+				putchar(' ');
 			}
 		}
-		k++
+		k++;
         }
 	putchar('\n');
 	return (0);
