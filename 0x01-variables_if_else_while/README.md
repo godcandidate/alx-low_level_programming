@@ -2,3 +2,4 @@
 1-last_digit prints the last digit of a random number with conditiond
 2-print_alphabet.c prints all the alphabets in lowercase
 3-print_alphabets.c prints all alphabets in lower case then upper case
+4-print_alphabt.c prints all lower case letters except e and q
