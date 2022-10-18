@@ -15,12 +15,10 @@ void print_to_98(int n)
 		{
 			if (i < 98)
 			{
-				_putchar(i);
-				_putchar(',');
-				_putchar(' ');
+				printf("%d, ", i);
 			}
 			else
-				_putchar(i);
+				printf("%d", i);
 		}
 	}
 	else
@@ -29,12 +27,10 @@ void print_to_98(int n)
 		{
 			if (i > 98)
 			{
-				_putchar(i);
-				_putchar(',');
-				_putchar(' ');
+				printf("%d, ", i);
 			}
 			else
-				_putchar(i);
+				printf("%d", i);
 		}
 	}
 }
