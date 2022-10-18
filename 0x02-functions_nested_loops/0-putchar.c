@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints the _putchar to output
+ * main - Prints _putchar to output
  *
  * Return: Always 0 (Success)
  *
