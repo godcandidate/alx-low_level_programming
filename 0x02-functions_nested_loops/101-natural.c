@@ -3,7 +3,7 @@
 /**
  * print_sum_multiples - prints the sum of 3 and 5 times 1024
  */
-void print_sum_multiples(void);
+void print_sum_multiples(void)
 {
 	int i = 3, a = 5;
 	int sum_3, sum_5;
