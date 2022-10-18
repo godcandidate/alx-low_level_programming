@@ -1,6 +1,3 @@
-#include "main.c"
-#include "_putchar.c"
-
 void print_alphabet(void);
 
 void print_alphabet(void)
