@@ -1,5 +1,4 @@
-#include "1-main.c"
-#include "_putchar.c"
+#include "main.h"
 
 void print_alphabet_x10(void)
 {
