@@ -17,6 +17,7 @@ int print_last_digit(int n)
 	{
 		k = i;
 		i = (i * 10);
+		i = i + k
 		_putchar(i);
 	}
 	else
