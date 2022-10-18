@@ -9,10 +9,10 @@
 int _islower(int c)
 {
 	int i;
-	
-	if ( islower(c) )
+
+	if (islower(c))
 		i = 1;
 	else
 		i = 0;
-	return (i);	
+	return(i);	
 }
