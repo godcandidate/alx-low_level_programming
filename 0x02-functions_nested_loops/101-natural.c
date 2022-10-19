@@ -7,7 +7,7 @@ void print_sum_multiples(void);
 void print_sum_multiples(void)
 {
 	int i = 3, a = 5;
-	int sum_3, sum_5;
+	int sum_3 = 0, sum_5 = 0;
 
 	while (i < 1024)
 	{
