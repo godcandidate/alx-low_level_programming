@@ -6,20 +6,16 @@ void print_sum_multiples(void);
  */
 void print_sum_multiples(void)
 {
-	int i = 3, a = 5;
-	int sum_3 = 0, sum_5 = 0;
+	int i = 2;
+	int sum = 0;
 
 	while (i < 1024)
 	{
-		sum_3 += i;
-		i += 3;
+		if (i % 3 == 0 && i % 5 == 0)
+			sum += i;
+		i += 1;
 	}
-	while (a < 1024)
-	{
-		sum_5 += a;
-		a += 5;
-	}
-	printf("%d\n", sum_3 + sum_5);
+	printf("%d\n", sum);
 }
 
 /**
