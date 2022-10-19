@@ -7,7 +7,7 @@ void print_first_98_fibonacci(void);
  */
 void print_first_98_fibonacci(void)
 {
-	float n1 = 1, n2 = 2, n3;
+	double n1 = 1, n2 = 2, n3;
 	int i;
 
 	printf("1, 2, ");
@@ -16,9 +16,9 @@ void print_first_98_fibonacci(void)
 	{
 		n3 = n1 + n2;
 		if (i != 97)
-			printf("%.0f, ", n3);
+			printf("%.16g, ", n3);
 		else
-			printf("%.0f", n3);
+			printf("%.16g", n3);
 		n1 = n2;
 		n2 = n3;
 	}
