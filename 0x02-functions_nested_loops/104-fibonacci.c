@@ -15,7 +15,7 @@ void print_first_98_fibonacci(void)
 	for (i = 2; i < 98; ++i)
 	{
 		n3 = n1 + n2;
-		if (i != 49)
+		if (i != 97)
 			printf("%.0f, ", n3);
 		else
 			printf("%.0f", n3);
