@@ -13,5 +13,6 @@ int print_last_digit(int n)
 	if (i < 0)
 		i = i * -1;
 
-	printf("%d%d", i, i);
+	_putchar(i);
+	return (i);
 }
