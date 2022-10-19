@@ -16,9 +16,9 @@ void print_first_98_fibonacci(void)
 	{
 		n3 = n1 + n2;
 		if (i != 49)
-			printf("%.0lf, ", n3);
+			printf("%.0f, ", n3);
 		else
-			printf("%.0lf", n3);
+			printf("%.0f", n3);
 		n1 = n2;
 		n2 = n3;
 	}
