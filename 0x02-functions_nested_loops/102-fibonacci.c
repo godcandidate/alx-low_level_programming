@@ -6,7 +6,7 @@ void print_first_50_fibonacci(void);
  */
 void print_first_50_fibonacci(void)
 {
-	int n1 = 1, n2 = 2, n3;
+	long int n1 = 1, n2 = 2, n3;
 	int i;
 
 	printf("1, 2, ");
