@@ -7,21 +7,36 @@ void print_first_98_fibonacci(void);
  */
 void print_first_98_fibonacci(void)
 {
-	double n1 = 1, n2 = 2, n3;
-	int i;
+	unsigned long int a, a1, a2, b, b1, b2, c, c1, c2, d, e;
 
-	printf("1, 2, ");
+	a = 1;
+	b = 2;
+	c = a + b;
 
-	for (i = 2; i < 98; ++i)
+	printf("%lu, ", a);
+	printf("%lu, ", b);
+	for (d = 3; d < 89; d++)
 	{
-		n3 = n1 + n2;
-		if (i != 97)
-			printf("%.16g, ", n3);
-		else
-			printf("%.16g", n3);
-		n1 = n2;
-		n2 = n3;
+		printf("%lu, ", c);
+		a = b;
+		b = c;
+		c = a + b;
 	}
+	b1 = b / 1000000000;
+	b2 = b % 1000000000;
+	c1 = c / 1000000000;
+	c2 = c % 1000000000;
+	for (e = 89; e < 98; e++)
+	{
+		printf("%lu%lu, ", c1, c2);
+		a1 = b1;
+		a2 = b2;
+		b1 = c1;
+		b2 = c2;
+		c1 = a1 + b1 + ((a2 + b2) / 1000000000);
+		c2 = (a2 + b2) % 1000000000;
+	}
+	printf("%lu%lu\n", c1, c2);
 }
 
 /**
