@@ -7,7 +7,7 @@ void print_times_table(int n)
 	int ni, m, p;
 
 	if (n < 0 && n > 15)
-		_putchar(' ')
+		_putchar(' ');
 	else
 	{
 		for (ni = 0; ni <= n; n++)
