@@ -24,7 +24,7 @@ void print_sum_fibonacci(void)
 		else
 			break;
 	}
-	printf("%ld/n", sum);
+	printf("%ld\n", sum);
 }
 
 /**
