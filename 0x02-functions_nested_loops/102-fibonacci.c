@@ -17,7 +17,7 @@ void print_first_50_fibonacci(void)
 		if (i != 49)
 			printf("%ld, ", n3);
 		else
-			printf("%ld", n3);
+			printf("%ld\n", n3);
 		n1 = n2;
 		n2 = n3;
 	}
