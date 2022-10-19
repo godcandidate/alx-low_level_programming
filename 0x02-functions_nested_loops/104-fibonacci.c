@@ -40,7 +40,7 @@ void print_first_98_fibonacci(void)
 }
 
 /**
- * main - prints the fibonacci numbers
+ * main - prints the first 98 fibonacci numbers
  *
  * Return: Always 0.
 */
