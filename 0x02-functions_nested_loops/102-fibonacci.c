@@ -11,10 +11,13 @@ void print_first_50_fibonacci(void)
 
 	printf("1, 2, ");
 
-	for (i = 0; i < 50; ++i)
+	for (i = 2; i < 50; ++i)
 	{
 		n3 = n1 + n2;
-		printf("%ld, ", n3);
+		if (i != 49)
+			printf("%ld, ", n3);
+		else
+			printf("%ld", n3);
 		n1 = n2;
 		n2 = n3;
 	}
