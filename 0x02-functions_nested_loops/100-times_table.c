@@ -6,7 +6,7 @@ void print_times_table(int n)
 {
 	int ni, m, p;
 
-	if (n < 0 && and n > 15)
+	if (n < 0 && n > 15)
 		_putchar(' ')
 	else
 	{
