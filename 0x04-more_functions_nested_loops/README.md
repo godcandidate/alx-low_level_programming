@@ -28,3 +28,6 @@ a function that prints a square, followed by a new line
 9-fizz_buzz.c
 a program that prints the numbers from 1 to 100, followed by a new line but prints Fizz, Buzz and FizzBuzz for multiples of 3, 5 and both respectively
 
+10-print_triangle.c
+a function that prints a triangle, followed by a new line
+
