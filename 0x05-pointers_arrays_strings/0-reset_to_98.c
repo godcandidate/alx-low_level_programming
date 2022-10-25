@@ -1,9 +1,8 @@
 #include "main.h"
 #include <ctype.h>
 /**
- *  _isupper - checks if a letter is uppercase
- *  @*n: pointer to reset 
- *
+ *  reset_to_98 - resets a number to 98
+ *  @n: pointer to the element
  *  Return: always 0
  */
 void reset_to_98(int *n)
