@@ -4,19 +4,20 @@
  * @a: array to reverse
  * @n: size of array
  *
- * Return: always returns 0
+ * Return: returns nothing
  */
 void reverse_array(int *a, int n)
 {
-	int *rev, i = 0;
+	int rev, i, j;
 
-	rev = a;
-
-	while (n > -1)
+	for(i = 0; i < n - 1; i++)
 	{
-		a[i] = rev[n];
-		i++;
-		n--;
+		for(j = i + 1; j > 0; j--)
+		{
+			rev = *(a + j);
+			*(a + j) = *(a + (j - 1));
+			*(a + (j - 1)) = rev;
+		}
 	}
 }
 
