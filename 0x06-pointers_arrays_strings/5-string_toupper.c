@@ -2,7 +2,7 @@
 
 /**
  * string_toupper - changes lowercase to uppercase 
- * @dest: string to change
+ * @s: string to change
  * Return: returns uopercase strings
  */
 char *string_toupper(char *s)
