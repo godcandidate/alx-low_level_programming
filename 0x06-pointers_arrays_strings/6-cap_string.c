@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * cap_string - changes lowercase to uppercase 
+ * cap_string - changes lowercase to uppercase
  * @s: string to change
  * Return: returns capitalize  strings
  */
