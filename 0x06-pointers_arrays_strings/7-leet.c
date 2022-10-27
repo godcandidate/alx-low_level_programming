@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * leet - change strings to in 
+ * leet - change strings to in
  * @s: charcter to check
  * Return: returns strings.
  */
