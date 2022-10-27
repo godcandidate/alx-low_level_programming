@@ -8,29 +8,25 @@
 
 void print_number(int n)
 {
-	unsigned int x, y, i;
+	unsigned int i, m, o;
 
 	if (n < 0)
 	{
 		_putchar(45);
-		x = n * -1;
+		m = n * -1;
 	}
 	else
-	{
-		x = n;
-	}
+		m = n;
 
-	y = x;
+	o = m;
 	i = 1;
 
-	while (y > 9)
+	while (o > 9)
 	{
-		y /= 10;
+		o /= 10;
 		i *= 10;
 	}
 
 	for (; i >= 1; i /= 10)
-	{
-		_putchar(((x / i) % 10) + 48);
-	}
+		_putchar(((m / i) % 10) + 48);
 }
