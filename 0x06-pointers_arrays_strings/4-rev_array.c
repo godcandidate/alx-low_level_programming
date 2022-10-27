@@ -1,40 +1,22 @@
 #include "main.h"
 /**
- * 3-strcmp.c - compares two strings
- * @s1: first string
- * @s2: second word
+ * reverse_array - reverses an array
+ * @a: array to reverse
+ * @n: size of array
  *
- * Return: returns compared results
+ * Return: always returns 0
  */
-int _strcmp(char *s1, char *s2)
+void reverse_array(int *a, int n)
 {
-	int value = 0, i = 0, j = 0;
-	int ascii, ascii2;
+	int *rev, i = 0;
 
-	while (s2[i] != '\0')
-		i++;
-	i = i - 1;
+	rev = a;
 
-	while (s2[j] != '\0')
+	while (n > -1)
 	{
-		ascii = (int)s1[j];
-		ascii2 = (int)s2[j];
-
-		if (s1[j] == s2[j])
-		{
-			if (j != i)
-			{
-				j++;
-				continue;
-			}
-			break;
-		}
-		else
-		{
-			value = ascii - ascii2;
-			break;
-		}
+		a[i] = rev[n];
+		i++;
+		n--;
 	}
-	return (value);
 }
 
