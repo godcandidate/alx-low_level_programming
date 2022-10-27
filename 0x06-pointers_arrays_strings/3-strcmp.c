@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * 3-strcmp.c - compares two strings
+ * 3-strcmp - compares two strings
  * @s1: first string
  * @s2: second word
  *
