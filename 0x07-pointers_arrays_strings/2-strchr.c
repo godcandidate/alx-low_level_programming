@@ -1,18 +1,17 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * _mempcy - copy bytes to a string
- * @dest: destination to copy to
- * @src: source to copy from
- * @n: Number of bytes to be filled
+ * _strchr - locates a character in a string
+ * @s: destination to copy to
+ * @c: source to copy from
  *
  * Return: Returns a pointer to the memory area s
  */
 
 char *_strchr(char *s, char c)
 {
-	for (; *s != '\0'; ++s)
-  		if (*s == c)
-			return (char *) s;
-	return NULL;
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
+		*(s + i) = b;
+	return (s);
 }
