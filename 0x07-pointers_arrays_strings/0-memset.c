@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * leet - change strings to in
+ * _memset -  fills memory with a constant byte
  * @s: address of memory to be filled
  * @b: Value to be filled
  * @n: Number of bytes to be filled
@@ -12,8 +12,9 @@
 char *_memset(char *s, char b, unsigned int n)
 {
 	int i, k;
+
 	k = n;
-	for(i = 0; i < k; i++)
-		s[k]=b;
+	for (i = 0; i < k; i++)
+		s[k] = b;
 	return (s);
 }
