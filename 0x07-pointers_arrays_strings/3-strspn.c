@@ -1,7 +1,6 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * _mempcy - copy bytes to a string
+ * _strspn - gets the length of a prefix substring
  * @s: string to be scanned
  * @accept: string containing the characters to match7
  *
@@ -10,10 +9,18 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int len =0;
-	if((s == NULL) || (accept == NULL))
-        	return len;
-	while(*s && strchr(accept,*s++))
-		len++;
-	return len;
+	unsigned int i, j;
+
+	for (i = 0; s[i]; i++)
+	{
+		for (j = 0; accept[j]; j++)
+		{
+			if (s[i] == accept[j])
+			break;
+		}
+		if (!accept[j])
+			break;
+	}
+	return (i);
+}
 }
