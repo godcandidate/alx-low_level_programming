@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "enter filename"
+read fname
+echo "enter commit message"
+read message
+
+git add $fname
+git commit -m "$message"
+git push
