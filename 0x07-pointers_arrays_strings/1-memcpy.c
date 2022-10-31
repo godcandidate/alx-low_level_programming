@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _mempcy - copy bytes to a string
+ * _memcpy - copy bytes to a string
  * @dest: destination to copy to
  * @src: source to copy from
  * @n: Number of bytes to be filled
