@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * primeb- checks the number of factors
+ * prime- checks the number of factors
  * @x: number
  * @y: factors
  * Return: returns results
