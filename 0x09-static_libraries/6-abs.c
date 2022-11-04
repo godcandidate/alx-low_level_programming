@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 /**
  *  _abs - checks the absolute value of a number
  *  @c: The character to check
@@ -8,8 +7,12 @@
  */
 int _abs(int c)
 {
-	int i;
-
-	i = abs(c);
-	return (i);
+	if (c < 0)
+	{
+		return (c * -1);
+	}
+	else
+	{
+		return (c);
+	}
 }
