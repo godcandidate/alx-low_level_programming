@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 /**
  * main - adds infinite number of arguements
  * @argc: number of arguements
@@ -10,31 +11,26 @@
 
 int main(int argc, char *argv[])
 {
-	int result = 0, i = 1;
-	int a;
+	int result = 0, i, j;
 
-	if (argc < 1)
+	if (argc == 1)
 	{
 		printf("0\n");
 	}
 
-	else
+	for (i = 1; i < argc; i++)
 	{
-		while (i < argc)
+		for (j = 0; argv[i][j]; j++)
 		{
-			a = atoi(argv[i]);
-			if (a != 0)
-				result += a;
-			else
+			if (isdigit(argv[i][j]) == 0)
 			{
 				printf("Error\n");
 				return (1);
 			}
-			i++;
 		}
-		printf("%d\n", result);
+		result += atoi(argv[i]);
 	}
-
+	printf("%d\n", result);
 	return (0);
 }
 
