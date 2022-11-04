@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - prints name of program
- *
+ * argc - number of arguements
+ * argv - an array that holds the arguements
  * Return: Always 0.
  */
 

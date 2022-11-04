@@ -2,6 +2,8 @@
 #include <ctype.h>
 /**
  * main - adds infinite number of arguements
+ * argc - number of arguements
+ * argv - an array that holds the arguements
  *
  * Return: Always 0.
  */
