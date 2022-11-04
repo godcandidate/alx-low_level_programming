@@ -1,14 +1,14 @@
 #include <stdio.h>
-#include <ctype.h>
+#include <stdlib.h>
 /**
  * main - adds infinite number of arguements
- * argc - number of arguements
- * argv - an array that holds the arguements
+ * @argc: number of arguements
+ * @argv: an array that holds the arguements
  *
  * Return: Always 0.
  */
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int result = 0, i = 1;
 	int a;
@@ -22,7 +22,7 @@ int main (int argc, char *argv[])
 	{
 		while (i < argc)
 		{
-			a = atoi (argv[i]);
+			a = atoi(argv[i]);
 			if (a != 0)
 				result += a;
 			else
