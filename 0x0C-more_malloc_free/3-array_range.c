@@ -6,7 +6,7 @@
  * @min: smallest number to be stored
  * @max: largest number to be stored
  *
- * Return: pointer to the newly created array 
+ * Return: pointer to the newly created array
  */
 int *array_range(int min, int max)
 {
