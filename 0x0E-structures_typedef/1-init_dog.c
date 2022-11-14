@@ -1,10 +1,10 @@
 #include "dog.h"
 /*
  * init_dog - initialize struct dog
- * d: struct dog
- * name: name of dog
- * age: age of dog
- * owner: owner of dog
+ * @d: struct dog
+ * @name: name of dog
+ * @age: age of dog
+ * @owner: owner of dog
  *
  * Return: returns nothing.
  */
