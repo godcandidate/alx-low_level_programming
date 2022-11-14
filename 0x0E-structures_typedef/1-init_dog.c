@@ -1,12 +1,12 @@
 #include "dog.h"
-/*
- * init_dog - initialize struct dog
- * @d: struct dog
+/**
+ * init_dog - writes the character c to stdout
+ * @d: struct of dog
  * @name: name of dog
  * @age: age of dog
  * @owner: owner of dog
  *
- * Return: returns nothing.
+ * Return: returns nothing
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
