@@ -1,6 +1,7 @@
 /**
  * print_name - prints name to output
  * @name: name of the person
+ * @f: pointer that points to the function
  *
  * Return: Nothing.
  */
