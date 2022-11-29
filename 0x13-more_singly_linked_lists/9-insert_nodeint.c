@@ -57,7 +57,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		tmp2 = tmp1, tmp1 = tmp1->next;
 		count++;
 	}
-	7if (idx == 0)
+	if (idx == 0)
 	{
 		*head = new_node;
 		new_node->next = tmp1;
